@@ -3,4 +3,9 @@
 .container__login {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.container__login-principal{
+    background: $cor-cinza-gradiente;
 }
