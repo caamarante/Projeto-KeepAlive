@@ -10,4 +10,26 @@
     background: $cor-cinza-gradiente;
     display: grid;
     justify-content: center;
+    align-items: center;
 }
+
+.logo-mobile {
+    display: none;
+}
+
+.principal__caixa-texto {
+    width: 18.8125rem;
+}
+
+.container__login-titulo {
+    font-size: 3.75rem;
+    line-height: 4.75rem;
+    color: $cor-cinza-claro;
+    padding-bottom: 1.0625rem;
+}
+
+.container__login-texto {
+    line-height: 1.25rem;
+    color: $cor-cinza-claro;
+}
+
