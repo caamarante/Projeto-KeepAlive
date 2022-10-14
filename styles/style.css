@@ -1,0 +1,10 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.container__login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}/*# sourceMappingURL=style.css.map */
