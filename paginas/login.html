@@ -7,26 +7,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/style.css">
     <title>Compass - Login</title>
 </head>
 <body>
     <main class="container__login">
         <section class="container__login-principal">
-            <span class="logo-mobile"></span>
-            <h2 class="container__login-titulo">Olá</h2>
-            <p class="container__login-texto">Para continuar navegando de forma segura, efetue o login na rede.</p>
+            <span class="logo-mobile"><img src="../imagem/logo.svg" alt="Logo Compass"></span>
+            <div class="principal__caixa-texto">
+                <h2 class="container__login-titulo">Olá,</h2>
+                <p class="container__login-texto">Para continuar navegando de forma segura, efetue o login na rede.</p>
+            </div>
 
             <form action="" class="container__login-formulario">
-                <label for="login">Login</label>
-                <input type="text" id="login" placeholder="Usuário">
-                <input type="password" id="senha" placeholder="Senha">
+                <label for="login" class="texto-login">Login</label>
+                <input type="text" id="login" class="formulario-input" placeholder="Usuário"><i class="icone-user"></i>
+                <input type="password" id="senha" class="formulario-input" placeholder="Senha"><i class="icone-senha"></i>
+                <span class="login-esconde login-erro">Ops, usuário ou senha inválidos. Tente novamente!</span>
                 <button class="login-formulario-botao">Continuar</button>
             </form>
 
         </section>
         <section class="container__login-imagem">
-            <span class="imagem-logo"></span>
+            <img src="../imagem/login/logo.svg" class="imagem-logo" alt="logo">
         </section>
 
     </main>
