@@ -1,0 +1,82 @@
+@import '../abstract/variaveis';
+
+.section-home {
+    background: $cor-cinza-claro-gradiente;
+    min-height: 100vh;
+}
+
+.container-home {
+    background-image: url('../../imagem/home/bola-LogoCompasso\ 1.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: bottom left;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5625rem 2.5rem 0 2.5rem;
+    align-items: flex-start;
+}
+
+.header__hora-data {
+    text-align: center;
+}
+
+.header-hora {
+    color: $cor-cinza;
+    font-weight: 700;
+    font-size: 9rem;
+    line-height: 7.5rem;
+}
+
+.header-data {
+    color: $cor-cinza;
+    font-size: .875rem;
+}
+
+.header__tempo-localizacao {
+    color: $cor-cinza;
+    font-size: .875rem;
+    line-height: 1.125rem;
+}
+
+.header__tempo-previsao {
+    width: 2.125rem;
+    height: 2.125rem;
+}
+
+.header__tempo-temperatura {
+    color: $cor-cinza;
+    font-size: 3rem;
+    line-height: 3.8125rem;
+    font-weight: 700;
+}
+
+.texto__nossaMissao {
+    display: grid;
+    justify-items: end;
+    padding-right: 8.375rem;
+    margin-top: 10.375rem;
+}
+
+.texto__nossaMissao h4 {
+    font-size: 2.25rem;
+    line-height: 46px;
+}
+
+.texto__nossaMissao h3 {
+    font-size: 4rem;
+    line-height: 5.0625rem;
+}
+
+.texto__nossaMissao-destaque {
+    font-weight: 700;
+    color: $cor-vermelho;
+}
+
+.texto__nossaMissao-portugues {
+    color: $cor-cinza;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
