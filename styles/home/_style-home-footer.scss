@@ -1,0 +1,88 @@
+.footer__home {
+    width: 100%;
+    height: 6.25rem;
+    background: $cor-cinza-gradiente;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.footer__home-texto {
+    height: 3.75rem;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    width: 33.8125rem;
+    color: $cor-branco;
+    font-size: .75rem;
+    line-height: 15px;
+    padding-right: 2.1875rem;
+    border-right: 1px solid $cor-branco;
+}
+
+.footer__cronometro {
+    display: flex;
+    align-items: center;
+    margin-right: 23.0625rem;
+    margin-left: 7.6875rem;
+}
+
+.footer__cronometro-texto {
+    width: 6.8125rem;
+    color: $cor-branco;
+    font-size: .875rem;
+    line-height: 1.125rem;
+    text-align: right;
+}
+
+.footer__cronometro-temporizador {
+    width: 3.75rem;
+    display: grid;
+    margin-left: 2.0625rem;
+}
+
+.cronometro-numero {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: $cor-branco;
+    font-weight: 700;
+}
+
+.cronometro-texto {
+    width: 6.0625rem;
+    color: $cor-branco;
+    font-size: .875rem;
+    line-height: 1.125rem;
+    text-align: center;
+}
+
+.footer__navegacao {
+    height: 100%;
+    display: flex;
+}
+
+.footer__navegacao-link {
+    height: 6.25rem;
+    width: 8.1875rem;
+    text-decoration: none;
+    background: $cor-branco;
+    color: $cor-vermelho;
+    font-size: .75rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__navegacao-botao {
+    width: 8.125rem;
+    color: $cor-branco;
+    background-color: transparent;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: .75rem;
+    font-family: $fonte-principal;
+}
