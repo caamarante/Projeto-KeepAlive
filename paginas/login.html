@@ -14,7 +14,7 @@
 <body>
     <main class="container__login">
         <section class="container__login-principal">
-            <span class="logo-mobile"><img src="../imagem/logo.svg" alt="Logo Compass"></span>
+            <span class="logo-mobile"><img src="../imagem/login/logo.svg" alt="Logo Compass"></span>
             <div class="principal__caixa-texto">
                 <h2 class="container__login-titulo">Olá,</h2>
                 <p class="container__login-texto">Para continuar navegando de forma segura, efetue o login na rede.</p>
@@ -25,7 +25,7 @@
                 <input type="text" id="login" class="formulario-input" placeholder="Usuário"><i class="icone-user"></i>
                 <input type="password" id="senha" class="formulario-input" placeholder="Senha"><i class="icone-senha"></i>
                 <span class="login-esconde login-erro">Ops, usuário ou senha inválidos. Tente novamente!</span>
-                <button class="login-formulario-botao">Continuar</button>
+                <button class="login-formulario-botao" id="botao-login">Continuar</button>
             </form>
 
         </section>
@@ -34,6 +34,8 @@
         </section>
 
     </main>
-    
+    <script src="../js/login/login.js"></script>
+    <script src="../js/login/login-preenchendo.js"></script>
+    <script src="../js/login/login-erro.js"></script>
 </body>
 </html>
