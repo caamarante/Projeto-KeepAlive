@@ -39,7 +39,7 @@ body {
 
 .container__login-formulario {
   display: grid;
-  grid-template-columns: 23.6875rem auto;
+  grid-template-columns: 23.6875rem 1.25rem;
 }
 
 .texto-login {
@@ -106,7 +106,7 @@ body {
   margin-top: 2rem;
   margin-left: 1.125rem;
   width: 1.25rem;
-  height: 1.25rem;
+  height: 1.5625rem;
   background-image: url("../../imagem/login/icone-senha.svg");
   align-self: center;
 }
@@ -148,4 +148,174 @@ body {
 
 .login-formulario-botao-erro {
   margin-top: 2.9375rem;
+}
+
+.section-home {
+  background: linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%);
+  min-height: 100vh;
+}
+
+.container-home {
+  background-image: url("../../imagem/home/bola-LogoCompasso 1.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: bottom left;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5625rem 2.5rem 0 2.5rem;
+  align-items: flex-start;
+}
+
+.header__hora-data {
+  text-align: center;
+}
+
+.header-hora {
+  color: #222222;
+  font-weight: 700;
+  font-size: 9rem;
+  line-height: 7.5rem;
+}
+
+.header-data {
+  color: #222222;
+  font-size: 0.875rem;
+}
+
+.header__tempo-localizacao {
+  color: #222222;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+.header__tempo-previsao {
+  width: 2.125rem;
+  height: 2.125rem;
+}
+
+.header__tempo-temperatura {
+  color: #222222;
+  font-size: 3rem;
+  line-height: 3.8125rem;
+  font-weight: 700;
+}
+
+.texto__nossaMissao {
+  display: grid;
+  justify-items: end;
+  padding-right: 8.375rem;
+  margin-top: 10.375rem;
+}
+
+.texto__nossaMissao h4 {
+  font-size: 2.25rem;
+  line-height: 46px;
+}
+
+.texto__nossaMissao h3 {
+  font-size: 4rem;
+  line-height: 5.0625rem;
+}
+
+.texto__nossaMissao-destaque {
+  font-weight: 700;
+  color: #C12D18;
+}
+
+.texto__nossaMissao-portugues {
+  color: #222222;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+.footer__home {
+  width: 100%;
+  height: 6.25rem;
+  background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.footer__home-texto {
+  height: 3.75rem;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  width: 33.8125rem;
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  line-height: 15px;
+  padding-right: 2.1875rem;
+  border-right: 1px solid #FFFFFF;
+}
+
+.footer__cronometro {
+  display: flex;
+  align-items: center;
+  margin-right: 23.0625rem;
+  margin-left: 7.6875rem;
+}
+
+.footer__cronometro-texto {
+  width: 6.8125rem;
+  color: #FFFFFF;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  text-align: right;
+}
+
+.footer__cronometro-temporizador {
+  width: 3.75rem;
+  display: grid;
+  margin-left: 2.0625rem;
+}
+
+.cronometro-numero {
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.cronometro-texto {
+  width: 6.0625rem;
+  color: #FFFFFF;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  text-align: center;
+}
+
+.footer__navegacao {
+  height: 100%;
+  display: flex;
+}
+
+.footer__navegacao-link {
+  height: 6.25rem;
+  width: 8.1875rem;
+  text-decoration: none;
+  background: #FFFFFF;
+  color: #C12D18;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__navegacao-botao {
+  width: 8.125rem;
+  color: #FFFFFF;
+  background-color: transparent;
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=style.css.map */
