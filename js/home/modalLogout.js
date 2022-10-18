@@ -1,5 +1,6 @@
 let modalLogout = document.getElementById("modalLogout");
 let botaoLogout = document.getElementById("logout");
+let span = document.getElementsByClassName("close")[0];
 
 botaoLogout.addEventListener('click', function(){
     console.log('clicado')
@@ -19,3 +20,6 @@ apagarLogin.addEventListener('click', function(){
     window.location.href = "login.html";
 });
 
+span.onclick = function() {
+    modalLogout.style.display = "none";
+}
