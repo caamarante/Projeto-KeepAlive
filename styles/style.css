@@ -357,7 +357,22 @@ body {
   border-radius: 2.5rem;
 }
 
+.close {
+  color: #E0E0E0;
+  float: right;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .modal__texto {
+  margin-top: 2.5rem;
   font-family: "Poppins", sans-serif;
   font-size: 3.75rem;
   text-align: center;
