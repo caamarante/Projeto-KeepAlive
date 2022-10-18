@@ -21,9 +21,11 @@
                     <p class="header-data" id="data"></p>
                 </div>
                 <div class="header__tempo">
-                    <p class="header__tempo-localizacao">Passo Fundo - RS</p>
-                    <i class="header__tempo-previsao"></i>
-                    <h3 class="header__tempo-temperatura">22º</h3>
+                    <p class="header__tempo-localizacao"></p>
+                    <div class="header__climaTemperaura">
+                        <img class="header__tempo-previsao">
+                        <h3 class="header__tempo-temperatura"></h3>
+                    </div>
                 </div>
             </header>
             <div class="texto__nossaMissao">
@@ -38,6 +40,33 @@
             </div>
         </main>
     </section>
+
+    <div id="modalTemporizador" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <p class="modal__texto">Deseja continuar logado?</p>
+          <div class="modal__botoes">
+            <button id="continuarLogado" class="modal__botao botaoLogado">Sim</button>
+            <button id="desconectar" class="modal__botao botaoSair">Não</button>
+          </div>
+          
+        </div>
+      
+    </div>
+
+    <div id="modalLogout" class="modal">
+
+        <div class="modal-content">
+          <p class="modal__texto">Deseja deixar login e senha salvos para realizar o login automático na próxima vez?</p>
+          <div class="modal__botoes">
+            <button id="salvarLogin" class="modal__botao botaoLogado">Sim</button>
+            <button id="botaoLogout" class="modal__botao botaoSair">Não</button>
+          </div>
+          
+        </div>
+      
+    </div>
     
     
     <footer class="footer__home">
@@ -51,10 +80,16 @@
         </div>
         <div class="footer__navegacao">
             <a href="https://www.uol.com.br/" target="_blank" class="footer__navegacao-link">Continuar Navegando</a>
-            <button class="footer__navegacao-botao">Logout</button>
+            <button class="footer__navegacao-botao" id="logout">Logout</button>
         </div>
     </footer>
+    <script src="../js/home/verificarLogado-home.js"></script>
     <script src="../js/home/dataEHora.js"></script>
     <script src="../js/home/temporizador.js"></script>
+    <script src="../js/home/modalTemporizador.js"></script>
+    <script src="../js/home/modalLogout.js"></script>
+    <script src="../js/localStorage/localStorage.js"></script>
+    <script src="../js/home/API.js"></script>
+
 </body>
 </html>
