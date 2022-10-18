@@ -1,9 +1,82 @@
+![Logo](https://github.com/caamarante/Projeto-KeepAlive/blob/master/imagem/readme/Logo.png)
 
 # KeepAlive
 
 O usuário quer logar no website de colaboradores da Compass para que consiga acessar com segurança e usufruir das funcionalidades disponíveis.
 
 Objetivo do projeto: um login que possa permitir uma boa usabilidade ao usuário.
+
+## Acessando
+
+### Quando acessado será visto a página de login
+
+![Login](https://github.com/caamarante/Projeto-KeepAlive/blob/master/imagem/readme/CapturaDeTelaLogin.png)
+
+### Quando login está sendo preenchido
+
+![LoginPreenchendo](https://github.com/caamarante/Projeto-KeepAlive/blob/master/imagem/readme/CapturaDeTelaLoginPreenchido.png)
+
+### Quando login é preenchido incorretamente
+
+![LoginErro](https://github.com/caamarante/Projeto-KeepAlive/blob/master/imagem/readme/CapturaDeTelaLoginErro.png)
+
+### Quando login é preenchido corretamente o usuario é redirecionado para home
+
+![Home](https://github.com/caamarante/Projeto-KeepAlive/blob/master/imagem/readme/CapturaDeTelaHome.png)
+
+### Quando o temporizador da home chega em zero
+
+![HomeTemporizador](https://github.com/caamarante/Projeto-KeepAlive/blob/master/imagem/readme/CapturaDeTelaHomeTemporizador.png)
+
+### Quando o botao logout da home é clicado
+
+![HomeLogout](https://github.com/caamarante/Projeto-KeepAlive/blob/master/imagem/readme/CapturaDeTelaHomeLogout.png)
+
+### Quando o botao Continuar navegando da home é clicado
+
+É aberta uma nova aba do site de noticias da UOL
+
+## 🎨 Documentação de cores
+
+| Cor               | Hexadecimal |
+| ----------------- | ----------- |
+| Cor branco        | #FFFFFF     |
+| Cor vermelho      | #C12D18     |
+| Cor verde         | #09AC5E     |
+| Cor amarelo       | #E9B425     |
+| Cor laranja       | #E29933     |
+| Cor preto         | #000000     |
+| Cor cinza         | #222222     |
+| Cor cinza claro   | #E0E0E0     |
+
+| Cores gradientes          | linear-gradient                                        |
+| ---------------------     | ------------------------------------------------------ |
+| Cor laranja gradiente     | linear-gradient(180deg, #E29933 0%, #C13216 100%)      |
+| Cor preto gradiente       | linear-gradient(180deg, #222222 0%, #000000 100%)      |
+| Cor amarelo gradiente     | linear-gradient(180deg, #E9B425 0%, #E29933 100%)      |
+| Cor cinza gradiente       | linear-gradient(180deg, #33383D 0%, #1C1D20 100%)      |
+| Cor vermelho gradiente    | linear-gradient(90deg, #FF2D04 0%, #C13216 100%)       |
+| Cor cinza claro gradiente | linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%) |
+
+## ℱ Documentação de fonte
+
+O Google Fonts Knowledge permite que designers e desenvolvedores de todos os conjuntos de habilidades escolham e usem o tipo com propósito.
+
+### Fonte utilizada
+
+Poppins
+
+#### Para usar na web
+
+Para incorporar a fonte, copie o código no `<head>` do seu html
+
+- `<link rel="preconnect" href="https://fonts.googleapis.com">`
+- `<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>`
+- `<link href="https: //fonts.googleapis.com/css2? family= Poppins:wght@400;700 & display=swap" rel="stylesheet">`
+
+#### Regras CSS para especificar famílias
+
+- font-family: 'Poppins', sans-serif;
 
 ## Documentação da API WeatherAPI
 
@@ -37,19 +110,19 @@ URL base: `http://api.weatherapi.com/v1`
 ### Objeto de localização
 O objeto de localização é retornado com cada resposta da API. Na verdade, é o local correspondente para o qual as informações foram retornadas.
 
-| Campo   |    Tipo de dados       | Descrição     |
-| ----------- | -------------| ----------------|
-| `lat`       | `decimal` | Latitude em grau decimal |
-| `lon`         | `decimal` | Longitude em grau decimal |
+| Campo   | Tipo de dados  | Descrição                 |
+| ------- | -------------  | ------------------------- |
+| `lat`   | `decimal`      | Latitude em grau decimal  |
+| `lon`   | `decimal`      | Longitude em grau decimal |
 
 ### API em tempo real
 O método de API de clima atual ou clima em tempo real permite que um usuário atualize as informações meteorológicas atuais em json e xml. Os dados são retornados como um objeto atual.
 
-| Campo   |    Tipo de dados       | Descrição     |
-| ----------- | -------------| ----------------|
-| `temp_c`       | `decimal` | Temperatura em celsius |
-| `condition:icon`         | `string` | Ícone de condição climática |
-
+| Campo            | Tipo de dados | Descrição                   |
+| ---------------- | --------------| ----------------------------|
+| `temp_c`         | `decimal`     | Temperatura em celsius      |
+| `condition:icon` | `string`      | Ícone de condição climática |
+ 
 
 ## Documentação da API Reverse
 [Documentação API Reverse](https://nominatim.org/release-docs/develop/api/Reverse/)
@@ -79,52 +152,11 @@ onde `lat`e `lon` são latitude e longitude de uma coordenada na projeção WGS8
 
 O objeto de localização é retornado com cada resposta da API. Na verdade, é o local correspondente para o qual as informações foram retornadas.
 
-| Campo   |    Tipo de dados       | Descrição     |
-| ----------- | -------------| ----------------|
-| `city`       | `String` | Nome da cidade |
-| `state`         | `string` | Nome do estado |
+| Campo   | Tipo de dados  | Descrição       |
+| ------- | ---------------| ----------------|
+| `city`  | `String`       | Nome da cidade  |
+| `state` | `string`       | Nome do estado  |
 
-## 🎨 Documentação de cores
-
-| Cor               | Hexadecimal                                                |
-| ----------------- | ---------------------------------------------------------------- |
-| Cor branco        | ![#FFFFFF](https://via.placeholder.com/10/ffffff?text=+) #FFFFFF |
-| Cor vermelho      | ![#C12D18](https://via.placeholder.com/10/c12d18?text=+) #C12D18 |
-| Cor verde         | ![#09AC5E](https://via.placeholder.com/10/09ac5e?text=+) #09AC5E |
-| Cor amarelo       | ![#E9B425](https://via.placeholder.com/10/e9b425?text=+) #E9B425 |
-| Cor laranja       | ![#E29933](https://via.placeholder.com/10/e29933?text=+) #E29933 |
-| Cor preto         | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
-| Cor cinza         | ![#222222](https://via.placeholder.com/10/222222?text=+) #222222 |
-| Cor cinza claro   | ![#E0E0E0](https://via.placeholder.com/10/e0e0e0?text=+) #E0E0E0 |
-
-| Cores gradientes          | linear-gradient                                        |
-| ---------------------     | ------------------------------------------------------ |
-| Cor laranja gradiente     | linear-gradient(180deg, #E29933 0%, #C13216 100%)      |
-| Cor preto gradiente       | linear-gradient(180deg, #222222 0%, #000000 100%)      |
-| Cor amarelo gradiente     | linear-gradient(180deg, #E9B425 0%, #E29933 100%)      |
-| Cor cinza gradiente       | linear-gradient(180deg, #33383D 0%, #1C1D20 100%)      |
-| Cor vermelho gradiente    | linear-gradient(90deg, #FF2D04 0%, #C13216 100%)       |
-| Cor cinza claro gradiente | linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%) |
-
-## ℱ Documentação de fonte
-
-O Google Fonts Knowledge permite que designers e desenvolvedores de todos os conjuntos de habilidades escolham e usem o tipo com propósito.
-
-### Fonte utilizada
-
-Poppins
-
-#### Para usar na web
-
-Para incorporar a fonte, copie o código no `<head>` do seu html
-
-- `<link rel="preconnect" href="https://fonts.googleapis.com">`
-- `<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>`
-- `<link href="https: //fonts.googleapis.com/css2? family= Poppins:wght@400;700 & display=swap" rel="stylesheet">`
-
-#### Regras CSS para especificar famílias
-
-- font-family: 'Poppins', sans-serif;
 
 
 ## 📚 Referência
