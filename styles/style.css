@@ -160,6 +160,7 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   background-position: bottom left;
+  background-size: 31%;
 }
 
 .header {
@@ -187,8 +188,15 @@ body {
 
 .header__tempo-localizacao {
   color: #222222;
+  text-align: center;
   font-size: 0.875rem;
   line-height: 1.125rem;
+}
+
+.header__climaTemperaura {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__tempo-previsao {
@@ -205,9 +213,10 @@ body {
 
 .texto__nossaMissao {
   display: grid;
+  height: 70%;
+  align-content: center;
   justify-items: end;
   padding-right: 8.375rem;
-  margin-top: 10.375rem;
 }
 
 .texto__nossaMissao h4 {
@@ -260,6 +269,7 @@ body {
   align-items: center;
   margin-right: 23.0625rem;
   margin-left: 7.6875rem;
+  text-align: center;
 }
 
 .footer__cronometro-texto {
@@ -318,4 +328,58 @@ body {
   align-items: center;
   font-size: 0.75rem;
   font-family: "Poppins", sans-serif;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 6.25rem;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #FFFFFF;
+  margin: auto;
+  padding: 1.25rem;
+  border: 1px solid #222222;
+  width: 60%;
+  border-radius: 2.5rem;
+}
+
+.modal__texto {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.75rem;
+  text-align: center;
+  color: #222222;
+}
+
+.modal__botoes {
+  margin-top: 3.75rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.modal__botao {
+  width: 9.375rem;
+  height: 3.125rem;
+  border-radius: 1.25rem;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  font-size: 1.875rem;
+}
+
+.botaoLogado {
+  background-color: #09AC5E;
+}
+
+.botaoSair {
+  background-color: #C12D18;
 }/*# sourceMappingURL=style.css.map */
