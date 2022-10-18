@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     height: 100vh;
     background-position: bottom left;
+    background-size: 31%;
 }
 
 .header {
@@ -37,8 +38,15 @@
 
 .header__tempo-localizacao {
     color: $cor-cinza;
+    text-align: center;
     font-size: .875rem;
     line-height: 1.125rem;
+}
+
+.header__climaTemperaura {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header__tempo-previsao {
@@ -55,9 +63,10 @@
 
 .texto__nossaMissao {
     display: grid;
+    height: 70%;
+    align-content: center;
     justify-items: end;
     padding-right: 8.375rem;
-    margin-top: 10.375rem;
 }
 
 .texto__nossaMissao h4 {
