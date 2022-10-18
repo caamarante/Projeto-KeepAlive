@@ -1,5 +1,6 @@
 
 .input__login-digitando {
+    transition: 1s;
     background-image: url('../../imagem/login/icone-user.svg');
     background-repeat: no-repeat;
     background-position: right;
@@ -7,6 +8,7 @@
 }
 
 .input__senha-digitando {
+    transition: 1s;
     background-image: url('../../imagem/login/icone-senha.svg');
     background-repeat: no-repeat;
     background-position: right;
