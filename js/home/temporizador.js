@@ -1,4 +1,4 @@
-let contador = 600;
+let contador = 180;
 
 const temporizador = setInterval(() => {
     if (contador != 0) {
